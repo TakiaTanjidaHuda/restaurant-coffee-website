@@ -225,3 +225,34 @@ body{
     border-radius: 50%;
 
 }
+.logos{
+    background-color: hsla(0, 0%, 100%, 0.6); 
+    margin-top: 100px;
+    height: auto;
+    overflow: hidden;
+    padding: 50px 0 0 0;
+}
+.logos-slide img{
+    height: 150px;
+    width: 300px;
+    margin: 0 40px;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to
+    {
+       transform: translateX(-100%);
+    }
+    
+}
+.logos-slide{
+    white-space: nowrap;
+    animation: 8s slide infinite linear;
+} 
+
+/* .mrq-img{
+    height: 200px;
+    width: 300px;
+} */

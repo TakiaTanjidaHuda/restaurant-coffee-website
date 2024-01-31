@@ -119,6 +119,7 @@ body{
     font-family: 'Merienda', cursive;
     font-size: 25px;
 }
+
 .Menu-sub{
    
     background-color: black;
@@ -198,4 +199,29 @@ body{
 .card:hover .info{
     opacity: 1;
     transform: translateY(0px);
+}
+
+.testimonials .row{
+    margin-top: 90px;
+}
+
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    /* padding: 5px 5px 5px; */
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+}
+.profile img{
+    top: -50px;
+    position: relative;
+    /* left: calc(50%-60px); */
+    border: 10px solid ;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
 }

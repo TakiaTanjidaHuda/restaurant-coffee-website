@@ -312,3 +312,77 @@ body{
     opacity: 1;
     transform: translateY(0px);
 }
+
+.bookTable{
+    background-image: url(images/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:80px ;
+    padding-bottom:80px ;
+
+}
+.footer { background-color: var(--rich-black-fogra-39); }
+
+.footer-top {
+  color: var(--white);
+  display: grid;
+  gap: 50px;
+  border-block-end: 1px solid var(--white_a10);
+}
+
+.footer-list-title {
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-3);
+  margin-block-end: 20px;
+}
+
+.footer-list-item {
+  list-style: disc;
+  margin-inline-start: 18px;
+  margin-block-end: 10px;
+}
+
+.footer-list .strong {
+  color: var(--dark-orange);
+  font-family: var(--ff-merienda);
+  margin-inline-start: 18px;
+}
+
+.footer-list .span { color: var(--camel); }
+
+.footer-list .wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-block-start: 10px;
+}
+
+.footer-list .wrapper .span { font-weight: var(--fw-600); }
+
+.footer-list ion-icon {
+  margin-block-start: 7px;
+  color: var(--camel);
+  font-size: 35px;
+  --ionicon-stroke-width: 35px;
+}
+
+.footer-list .grid-list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.footer-bottom { padding-block: 30px; }
+
+.copyright {
+  text-align: center;
+  font-size: var(--fs-5);
+}
+
+
+.footer-top {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .footer-top { grid-template-columns: 1fr 1fr; }
+
+  .copyright { font-size: unset; }
